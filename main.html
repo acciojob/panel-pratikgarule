@@ -1,35 +1,36 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Intro to JS</title>
+
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-
-	<div class="container">
-		<div id="panel-1" class="panel active" style="background-image: url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');">
-			<h3>Explore the world</h3>
-		</div>
-		<div id="panel-2" class="panel" style="background-image: url('https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');">
-			<h3>Wild Forest</h3>
-		</div>
-		<div id="panel-3" class="panel" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80');">
-			<h3>Sunny Beach</h3>
-		</div>
-		<div id="panel-4" class="panel" style="background-image: url('https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80');">
-			<h3>City on Winter</h3>
-		</div>
-		<div id="panel-5" class="panel" style="background-image: url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');">
-			<h3>Mountain Cloud</h3>
-		</div>
-	</div>
-	
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container">
+        <!-- <div class="panel active" id="panel-1"  onclick="selectPanel1xyz()">
+            <h3 id="first-heading">Explore the world</h3>
+        </div> -->
+        <div class="panel active" id="panel-1"  onclick="selectPanelNoxyz(1)">
+            <h3 id="first-heading">Explore the world</h3>
+        </div>
+        <div class="panel" id="panel-2" onclick="selectPanelNoxyz(2)">
+            <h3>Wild Forest</h3>
+        </div>
+        <div class="panel" id="panel-3"  onclick="selectPanelNoxyz(3)">
+            <h3>Sunny Beach</h3>
+        </div>
+        <div class="panel" id="panel-4"  onclick="selectPanelNoxyz(4)">
+            <h3>City on Winter</h3>
+        </div>
+        <div class="panel" id="panel-5"  onclick="selectPanelNoxyz(5)">
+            <h3>Mountain Cloud</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="script2.js"></script> -->
 
 </body>
-
 </html>
